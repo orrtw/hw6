@@ -18,6 +18,7 @@ if __name__ == '__main__':
 >
 ```
 ![screenshot of sample](https://pp.userapi.com/c845221/v845221839/13619/-aNl_lJ2xN8.jpg)
+
 ```html
 <import pylab
 from mpl_toolkits.mplot3d import Axes3D
@@ -42,8 +43,10 @@ if __name__ == '__main__':
     pylab.show()
 >
 ```
+![screenshot of sample](https://pp.userapi.com/c845221/v845221839/13620/sheYWUxePhw.jpg)
+
 ```html    
-    from scipy import optimize
+ <from scipy import optimize
 import numpy
 
 def f(x):
@@ -53,11 +56,10 @@ print (result)
 [1.00001563 1.00003185]
 >
 ```
+
 ```html    
 <import pylab
 import numpy
-
-
 def makeData():
     x = numpy.arange(-10, 10, 0.05)
     y = numpy.arange(-10, 10, 0.05)
@@ -65,22 +67,19 @@ def makeData():
 
     zgrid = ((1+numpy.sin(xgrid)) *(1+ numpy.sin(ygrid)))
     return xgrid, ygrid, zgrid
-
-
 if __name__ == '__main__':
     x, y, z = makeData()
     pylab.contour(x, y, z)
 
     pylab.show()
-        >
-    ```
+>
+```
+![screenshot of sample](https://pp.userapi.com/c845221/v845221839/13627/ljPptGT6-mI.jpg)
     
  ```html
     <import pylab
 from mpl_toolkits.mplot3d import Axes3D
 import numpy
-
-
 def makeData():
     x = numpy.arange(-10, 10, 0.05)
     y = numpy.arange(-10, 10, 0.05)
@@ -88,19 +87,18 @@ def makeData():
 
     zgrid = ((1+numpy.sin(xgrid)) *(1+ numpy.sin(ygrid)))
     return xgrid, ygrid, zgrid
-
-
 if __name__ == '__main__':
     x, y, z = makeData()
 
     fig = pylab.figure()
     axes = Axes3D(fig)
-
     axes.plot_surface(x, y, z)
 
-    pylab.show()
-            >
-    ```
+    pylab.show()>
+ ```
+ 
+![screenshot of sample](https://pp.userapi.com/c845221/v845221839/1362e/PIRZbTiKPgA.jpg)
+
     from scipy import optimize
 import numpy
 
