@@ -1,7 +1,7 @@
 # hw6
 
-```
-<htmlimport pylab#из модуля pylab
+```<
+import pylab #из модуля pylab
 import numpy
 def makeData():
     x = numpy.arange(-1, 1, 0.005)
@@ -10,19 +10,16 @@ def makeData():
 
     zgrid = (1-xgrid)**2 + 100*(ygrid-xgrid**2)**2 
     return xgrid, ygrid, zgrid
-
-
 if __name__ == '__main__':
     x, y, z = makeData()
     pylab.contour(x, y, z)#функция, которая строит линии уровня 
 
     pylab.show()
-    >
-```
-    import pylab
+    >```
+```<
+import pylab
 from mpl_toolkits.mplot3d import Axes3D
 import numpy
-
 
 def makeData():
     x = numpy.arange(-10, 10, 0.05)
@@ -41,7 +38,7 @@ if __name__ == '__main__':
 
     axes.plot_surface(x, y, z)
 
-    pylab.show()
+    pylab.show()>```
     
     from scipy import optimize
 import numpy
