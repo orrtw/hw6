@@ -38,8 +38,10 @@ if __name__ == '__main__':
 
     axes.plot_surface(x, y, z)
 
-    pylab.show()>```
-    
+    pylab.show()
+>
+```
+```html    
     from scipy import optimize
 import numpy
 
@@ -48,8 +50,10 @@ def f(x):
 result = optimize.brute(f,((-5, 5),(-5, 5)))
 print (result)
 [1.00001563 1.00003185]
-    
-    import pylab
+>
+```
+```html    
+<import pylab
 import numpy
 
 
@@ -67,7 +71,11 @@ if __name__ == '__main__':
     pylab.contour(x, y, z)
 
     pylab.show()
-    import pylab
+        >
+    ```
+    
+ ```html
+    <import pylab
 from mpl_toolkits.mplot3d import Axes3D
 import numpy
 
@@ -90,6 +98,8 @@ if __name__ == '__main__':
     axes.plot_surface(x, y, z)
 
     pylab.show()
+            >
+    ```
     from scipy import optimize
 import numpy
 
