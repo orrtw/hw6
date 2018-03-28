@@ -17,6 +17,7 @@ if __name__ == '__main__':
     pylab.show()
 >
 ```
+![screenshot of sample](https://pp.userapi.com/c845221/v845221839/13619/-aNl_lJ2xN8.jpg)
 ```html
 <import pylab
 from mpl_toolkits.mplot3d import Axes3D
